@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="column">
+            <img src="/img/ice.jpg" alt="">
+        </div>
+
+        <div class="column mtop">
+            <form action="/welcome.html" style="justify-content: center;
+            text-align: center;" name="myform" method="post" onsubmit="return validate()" >
+                <p>Welcome back</p>
+                <h1>Login to your account</h1>
+                <label for="email" class="name">Email </label> <br>
+                <input type="email" name="email" class="take"  id="email">
+
+                <br>
+                <br>
+                <label for="password" class="name">Password</label><br>
+                <input class="take" type="password" name="password" id="password"><br><br>
+                <input type="radio" name="rememberme" value="rememberme" class="radiobtn"> Remember me
+                <a href="fpsw" class="fpwd">Forgot password ?</a>
+                <br><br>
+                <button id="nextpg" type="submit" class=" btn" value="Submit"> <b>Login now</b> </button>
+                <br>
+                <button class=" btngog">
+                    <div class="google-icon-wrapper ">
+                        <img class="google-icon"
+                            src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" />
+                    </div>
+                    <p class="btn-text"><b>or - login with google</b></p>
+                    <br>
+
+
+                    <h3 id="issues" class="invalid"> </h3>
+
+
+
+        </div>
+        </button>
+
+
+        </form>
+
+    </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

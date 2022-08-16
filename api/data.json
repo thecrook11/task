@@ -1,0 +1,29 @@
+{
+  "message": "Data Retrieved Successfully",
+  "data": [
+    {
+      "name": "Nandita Swarna",
+      "office": "Mumbai",
+      "position": "Web Developer",
+      "salary": 50000
+    },
+    {
+      "name": "Suman Mandeep",
+      "office": "Navi Mumbai",
+      "position": "Dev Ops",
+      "salary": 60000
+    },
+    {
+      "name": "Lalitha Chandana",
+      "office": "Delhi",
+      "position": "UIUX Designer",
+      "salary": 50000
+    },
+    {
+      "name": "Kishan Pritha",
+      "office": "Mumbai",
+      "position": "Backend Developer",
+      "salary": 50000
+    }
+  ]
+}
